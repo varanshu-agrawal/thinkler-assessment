@@ -26,7 +26,10 @@
 .tabContainer {
     display: flex;
     margin-bottom: 20px;
-    /* gap: 10px; */
+    display: inline-block;
+    padding: 3px;
+    background: #E6E8EA;
+    border-radius: 8px;
 }
 
 .tabButton {
@@ -35,15 +38,7 @@
     font-size: 14px;
     cursor: pointer;
     transition: all 0.3s ease;
-}
-
-.tabButton:first-child {
-    border-top-left-radius: 20px;
-    border-bottom-left-radius: 20px;
-}
-.tabButton:last-child {
-    border-top-right-radius: 20px;
-    border-bottom-right-radius: 20px;
+    border-radius: 10px;
 }
 
 .activeTab {
@@ -52,7 +47,7 @@
 }
 
 .inactiveTab {
-    background-color: #eee;
+    background-color: #E6E8EA;
     color: #333;
 }
 

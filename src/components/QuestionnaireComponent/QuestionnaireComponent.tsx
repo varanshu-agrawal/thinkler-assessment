@@ -129,6 +129,10 @@ const QuestionnaireComponent = ({
                                         onChange={() => handleOptionSelect(index)}
                                         className={styles.radioInput}
                                     />
+                                    <span
+                                        className={`${styles.customRadio} ${selectedOptions[currentQuestionIndex] === index ? styles.selected : ""
+                                            }`}
+                                    ></span>
                                     <span className={styles.optionText}>{option}</span>
                                 </label>
                             </div>

@@ -84,3 +84,24 @@
     background-color: #000;
     transition: width 0.3s ease;
 }
+
+.iconContainer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.status {
+    padding: 4px 7px;
+    border-radius: 5px;
+}
+
+.status_1 {
+    background-color: #D7E9FF;
+    color: #3690FF;
+}
+
+.status_2 {
+    background-color: #D6F1D8;
+    color: #34BA3B;
+}

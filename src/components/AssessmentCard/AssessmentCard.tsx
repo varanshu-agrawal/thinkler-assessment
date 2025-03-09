@@ -11,8 +11,14 @@ const AssessmentCard = ({
     onClick: any
 }) => {
 
+    const statusEnum = {
+        0: "Need to Start",
+        1: "In Progress",
+        2: "Completed"
+    }
+
     const [progress, setProgress] = useState(0);
-    const [status, setStatus] = useState<"Need to Start" | "In Progress" | "Completed">("Need to Start");
+    const [status, setStatus] = useState<0 | 1 | 2>(0);
 
     useEffect(() => {
         const savedProgress = localStorage.getItem(`assessment_progress_${assessment.id}`);
@@ -26,9 +32,9 @@ const AssessmentCard = ({
             const progress = (questionsCompleted / totalQuestions) * 100
 
             if (progress === 100) {
-                setStatus("Completed")
+                setStatus(2)
             } else {
-                setStatus("In Progress")
+                setStatus(1)
             }
 
             setProgress(progress);
@@ -43,7 +49,14 @@ const AssessmentCard = ({
             onClick={onClick}
         >
             <div className={styles.cardContent}>
-                <div className={styles.icon}>✴</div>
+                <div className={styles.iconContainer}>
+                    <div className={styles.icon}>✴</div>
+                    {
+                        status !== 0
+                            ? <div className={`${styles.status} ${styles[`status_${status}`]}`}>{statusEnum[status]}</div>
+                            : null
+                    }
+                </div>
                 <h3 className={styles.cardTitle}>{assessment.title}</h3>
                 <div className={styles.timeInfo}>
                     <span className={styles.clockIcon}>◷</span>
@@ -51,7 +64,7 @@ const AssessmentCard = ({
                 </div>
 
                 <div className={styles.statusSection}>
-                    <div className={styles.status}>{status}</div>
+                    <div className={styles.status}>{statusEnum[status]}</div>
                     <div className={styles.progressContainer}>
                         <div
                             className={styles.progressBar}

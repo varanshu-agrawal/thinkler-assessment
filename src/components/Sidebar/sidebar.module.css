@@ -1,0 +1,77 @@
+/* sidebar.module.css */
+.sidebar {
+    width: 20%;
+    background-color: #000;
+    color: #fff;
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    /* height: 100vh; */
+    transition: width 0.3s ease;
+}
+
+.collapsed {
+    width: 45px;
+    padding: 10px 5px;
+}
+
+.sidebarHeader {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 15px;
+}
+
+.logo {
+    margin: 0;
+}
+
+.toggleButton {
+    background: none;
+    border: none;
+    color: white;
+    cursor: pointer;
+    font-size: 16px;
+    padding: 5px;
+    border-radius: 5px;
+}
+
+.toggleButton:hover {
+    background-color: #333;
+}
+
+.linkContainer {
+    padding-block: 10px;
+}
+
+.linkItem {
+    color: #fff;
+    display: block;
+    margin: 0;
+    padding: 10px;
+    text-decoration: unset;
+    display: flex;
+    gap: 10px;
+    align-items: center;
+    text-align: center;
+}
+
+.collapsed .linkItem {
+    justify-content: center;
+    padding: 10px 5px;
+}
+
+.sidebarFooter {
+    margin-top: auto;
+}
+
+.collapsed .sidebarFooter p {
+    text-align: center;
+    padding: 5px;
+}
+
+.activeLink {
+    border-radius: 10px;
+    background-color: #FCEB00;
+    color: #000;
+}

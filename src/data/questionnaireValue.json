@@ -1,0 +1,184 @@
+{
+    "questionnaires": {
+        "1": {
+            "id": 1,
+            "title": "Inner Compass",
+            "timeToComplete": 30,
+            "status": "Need to Start",
+            "about": "Discover what drives your career choices by exploring the balance between passion, fulfillment, and ambition. This module helps you identify how your interests, values, and entrepreneurial spirit guide your path, leading you to a career that truly resonates with who you are.",
+            "description": "Assess your core values and what truly motivates you.",
+            "questions": [
+                {
+                    "question": "What motivates you the most in your career?",
+                    "options": [
+                        "Recognition",
+                        "Financial rewards",
+                        "Learning opportunities",
+                        "Helping others"
+                    ],
+                    "correctAnswer": "Learning opportunities"
+                },
+                {
+                    "question": "How do you handle conflicts at work?",
+                    "options": [
+                        "Avoid them",
+                        "Confront directly",
+                        "Seek compromise",
+                        "Consult a mentor"
+                    ],
+                    "correctAnswer": "Seek compromise"
+                }
+            ]
+        },
+        "2": {
+            "id": 2,
+            "title": "Influence Map",
+            "timeToComplete": 30,
+            "status": "Need to Start",
+            "about": "Identifies your sources of influence and how they shape your actions.",
+            "description": "Discover the sources of influence in your life.",
+            "questions": [
+                {
+                    "question": "Who has the most influence on your decisions?",
+                    "options": [
+                        "Family",
+                        "Peers",
+                        "Mentors",
+                        "Yourself"
+                    ],
+                    "correctAnswer": "Yourself"
+                },
+                {
+                    "question": "How do you influence others?",
+                    "options": [
+                        "Persuasion",
+                        "Inspiration",
+                        "Authority",
+                        "Logic"
+                    ],
+                    "correctAnswer": "Inspiration"
+                }
+            ]
+        },
+        "3": {
+            "id": 3,
+            "title": "Cultural Sync",
+            "timeToComplete": 30,
+            "status": "Need to Start",
+            "about": "Explores your adaptability to different cultural contexts and environments.",
+            "description": "Evaluate your adaptability to different cultures.",
+            "questions": [
+                {
+                    "question": "How do you adapt to new environments?",
+                    "options": [
+                        "Quickly",
+                        "Slowly",
+                        "With difficulty",
+                        "Easily"
+                    ],
+                    "correctAnswer": "Quickly"
+                },
+                {
+                    "question": "What is most important in a diverse team?",
+                    "options": [
+                        "Communication",
+                        "Trust",
+                        "Skills",
+                        "Leadership"
+                    ],
+                    "correctAnswer": "Communication"
+                }
+            ]
+        },
+        "4": {
+            "id": 4,
+            "title": "Career DNA",
+            "timeToComplete": 30,
+            "status": "Need to Start",
+            "about": "Analyzes your skills and preferences to align your career path.",
+            "description": "Analyze your career preferences and strengths.",
+            "questions": [
+                {
+                    "question": "What is your primary career goal?",
+                    "options": [
+                        "Leadership",
+                        "Specialization",
+                        "Entrepreneurship",
+                        "Work-life balance"
+                    ],
+                    "correctAnswer": "Specialization"
+                },
+                {
+                    "question": "What skill do you want to develop most?",
+                    "options": [
+                        "Communication",
+                        "Technical",
+                        "Management",
+                        "Creative"
+                    ],
+                    "correctAnswer": "Technical"
+                }
+            ]
+        },
+        "5": {
+            "id": 5,
+            "title": "Identity Atlas",
+            "timeToComplete": 30,
+            "status": "Need to Start",
+            "about": "Maps out your personal strengths, weaknesses, and identity traits.",
+            "description": "Explore your identity and personal strengths.",
+            "questions": [
+                {
+                    "question": "How do you describe yourself?",
+                    "options": [
+                        "Introverted",
+                        "Extroverted",
+                        "Ambivert",
+                        "Unsure"
+                    ],
+                    "correctAnswer": "Ambivert"
+                },
+                {
+                    "question": "Which of these is a core part of your identity?",
+                    "options": [
+                        "Career",
+                        "Relationships",
+                        "Values",
+                        "Achievements"
+                    ],
+                    "correctAnswer": "Values"
+                }
+            ]
+        },
+        "6": {
+            "id": 6,
+            "title": "Confidence Matrix",
+            "timeToComplete": 30,
+            "status": "Need to Start",
+            "about": "Assesses your confidence levels in different aspects of life.",
+            "description": "Assess your confidence across different areas of life.",
+            "questions": [
+                {
+                    "question": "How confident are you in your decision-making?",
+                    "options": [
+                        "Very confident",
+                        "Somewhat confident",
+                        "Not confident",
+                        "Depends on the situation"
+                    ],
+                    "correctAnswer": "Depends on the situation"
+                },
+                {
+                    "question": "What affects your confidence the most?",
+                    "options": [
+                        "Past experiences",
+                        "Peer feedback",
+                        "Knowledge level",
+                        "Mood"
+                    ],
+                    "correctAnswer": "Knowledge level"
+                }
+            ]
+        }
+    }
+}

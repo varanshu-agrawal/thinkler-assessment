@@ -1,0 +1,126 @@
+/* questionnaire.module.css */
+.questionnaireContainer {
+    width: 100%;
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+.questionnaireHeader {
+    margin-bottom: 20px;
+}
+
+.backLink {
+    color: #333;
+    text-decoration: none;
+    display: inline-flex;
+    align-items: center;
+    font-size: 14px;
+}
+
+.backLink:hover {
+    text-decoration: underline;
+}
+
+.questionCard {
+    background-color: white;
+    border-radius: 8px;
+    border: 1px solid #e0e0e0;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.05);
+    overflow: hidden;
+}
+
+.questionHeader {
+    background-color: #000;
+    color: white;
+    padding: 15px 20px;
+}
+
+.assessmentTitle {
+    margin: 0;
+    font-size: 18px;
+    font-weight: 500;
+}
+
+.questionContent {
+    padding: 20px;
+}
+
+.question {
+    font-size: 16px;
+    margin-bottom: 20px;
+    line-height: 1.5;
+}
+
+.optionsContainer {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.optionRow {
+    padding: 10px 0;
+    border-bottom: 1px solid #eee;
+}
+
+.optionRow:last-child {
+    border-bottom: none;
+}
+
+.optionLabel {
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+}
+
+.radioInput {
+    margin-right: 10px;
+}
+
+.optionText {
+    font-size: 14px;
+}
+
+.progressContainer {
+    height: 6px;
+    background-color: #eee;
+    margin-top: 20px;
+}
+
+.progressBar {
+    height: 100%;
+    background-color: #000;
+    transition: width 0.3s ease;
+}
+
+.questionFooter {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px 20px;
+    border-top: 1px solid #eee;
+}
+
+.questionCount {
+    font-size: 14px;
+    color: #666;
+}
+
+.nextButton {
+    background-color: #eee;
+    color: #333;
+    border: none;
+    border-radius: 4px;
+    padding: 8px 16px;
+    font-size: 14px;
+    cursor: pointer;
+}
+
+.nextButton:hover {
+    background-color: #ddd;
+}
+
+.nextButton:disabled {
+    opacity: 0.5;
+    cursor: not-allowed;
+}

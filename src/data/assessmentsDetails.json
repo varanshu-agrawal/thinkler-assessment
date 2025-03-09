@@ -1,0 +1,48 @@
+{
+    "motivatorAssessments": [
+        {
+            "id": 1,
+            "title": "Inner Compass",
+            "timeToComplete": 30,
+            "status": "Need to Start",
+            "about": "Helps you discover your core values and what drives your decision-making."
+        },
+        {
+            "id": 2,
+            "title": "Influence Map",
+            "timeToComplete": 30,
+            "status": "Need to Start",
+            "about": "Identifies your sources of influence and how they shape your actions."
+        },
+        {
+            "id": 3,
+            "title": "Cultural Sync",
+            "timeToComplete": 30,
+            "status": "Need to Start",
+            "about": "Explores your adaptability to different cultural contexts and environments."
+        },
+        {
+            "id": 4,
+            "title": "Career DNA",
+            "timeToComplete": 30,
+            "status": "Need to Start",
+            "about": "Analyzes your skills and preferences to align your career path."
+        }
+    ],
+    "personalityAssessments": [
+        {
+            "id": 5,
+            "title": "Identity Atlas",
+            "timeToComplete": 30,
+            "status": "Need to Start",
+            "about": "Maps out your personal strengths, weaknesses, and identity traits."
+        },
+        {
+            "id": 6,
+            "title": "Confidence Matrix",
+            "timeToComplete": 30,
+            "status": "Need to Start",
+            "about": "Assesses your confidence levels in different aspects of life."
+        }
+    ]
+}

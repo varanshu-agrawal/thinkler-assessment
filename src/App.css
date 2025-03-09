@@ -6,3 +6,8 @@
 .main {
   flex-grow: 1;
 }
+
+.mobileMain {
+  padding-top: 45px;
+  background: #f9f9f9;
+}

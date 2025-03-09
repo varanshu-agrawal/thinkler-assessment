@@ -6,7 +6,6 @@
     padding: 10px;
     display: flex;
     flex-direction: column;
-    /* height: 100vh; */
     transition: width 0.3s ease;
 }
 
@@ -74,4 +73,73 @@
     border-radius: 10px;
     background-color: #FCEB00;
     color: #000;
+}
+
+/* Mobile styles */
+.hamburgerButton {
+    background: none;
+    border: none;
+    color: black;
+    cursor: pointer;
+    font-size: 24px;
+    position: fixed;
+    top: 20px;
+    left: 20px;
+    z-index: 1000;
+
+    .faTimes {
+        color: white;
+    }
+}
+
+
+/* Reduced font size and padding for mobile */
+.mobileMenu {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: #000;
+    color: #fff;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    transform: translateX(-100%);
+    transition: transform 0.3s ease-in-out;
+    z-index: 999;
+}
+
+.mobileMenu.open {
+    transform: translateX(0);
+}
+
+.mobileMenu .linkContainer {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    /* Reduced gap */
+    text-align: center;
+}
+
+.mobileMenu .linkItem {
+    font-size: 18px;
+    /* Reduced font size */
+    padding: 8px 5px;
+    /* Reduced padding */
+    width: 100%;
+    text-align: center;
+}
+
+.mobileMenu .linkItem:hover {
+    background-color: #333;
+}
+
+/* Adjust hamburger icon size for mobile */
+.hamburgerButton {
+    font-size: 20px;
+    /* Reduced icon size */
+    padding: 5px;
+    /* Reduced padding */
 }
